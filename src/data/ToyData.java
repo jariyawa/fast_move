@@ -13,16 +13,16 @@ public class ToyData {
         bikes[2]=new Bike("b2",3);
         
         
-       // int i= 0;
-       // for( i=0;i<bikes.length;i++){
+        int i= 0;
+        for( i=0;i<bikes.length;i++){
             
-       // }
+        }
         
 
         return bikes;
     }
 
-    /*public static Person[] getPerson() {
+    public static Person[] getPerson() {
         Person[] person = new Person[3];
         // your code
 
@@ -35,7 +35,7 @@ public class ToyData {
 
         return parcels;
     }
-*/
+
     //testing
     public static void main(String[] args) {
         printBike();
@@ -50,7 +50,7 @@ public class ToyData {
         }
     }
 
-   /* private static void printPerson() {
+    private static void printPerson() {
         Person[] person = getPerson();
         for (int i = 0; i < person.length; i++) {
             System.out.println(person[i].toString());
@@ -62,6 +62,6 @@ public class ToyData {
         for (int i = 0; i < percels.length; i++) {
             System.out.println(percels[i].toString());
         }
-    }*/
+    }
 
 }
