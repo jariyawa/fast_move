@@ -27,7 +27,8 @@ public class ParcelStack {
     }
     
     public Parcel getParcel() {
-        if (count >= 0) {
+        if (count > 0) {
+            count= count -1;
             return this.parcels[--count];
         } else {
             return null;
